@@ -1,0 +1,14 @@
+#wrapper{
+    border: 10px solid #00571a;
+    background-color: rgb(255, 255, 255);
+    min-height: 100%;
+    margin: 5px;
+}
+ul{
+    font-size: 15px;
+    text-align: center:
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
