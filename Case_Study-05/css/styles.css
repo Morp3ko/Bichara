@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 208, 151);
+}
+#wrapper{
+    border: 5px solid rgb(192, 107, 50);
+    min-height: 100%;
+    background-color: bisque;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.main-navigation{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+.main-navigation button{
+    background-color: rgb(192, 107, 50);
+    cursor: pointer;
+}
+.main-navigation button a{
+    display: block;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.header{
+    border-bottom: 5px solid rgb(192, 107, 50);
+    height: 150px;
+    color: rgb(126, 56, 9);
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-weight: bold;
+    text-align: right;
+}
+
+  
