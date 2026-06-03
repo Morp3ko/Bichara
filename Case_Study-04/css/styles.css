@@ -1,0 +1,32 @@
+#wrapper{
+    border: 5px solid #00571a;
+    background-color: #84ac90;
+    min-height: 150%;
+    margin: 5px;
+}
+ul{
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+}
+h1{
+    font-size: 70px;
+    color: #00571a;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.body {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 40px;
+    color: whitesmoke;
+}
