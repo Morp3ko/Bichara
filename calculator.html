@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>.: Calculator :.</title>
+    <script>
+        function calculate(operation) {
+            let num1 = parseFloat(document.getElementById("txtNum1").value);
+            let num2 = parseFloat(document.getElementById("txtNum2").value);
+            let result = 0;
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers!");
+                return;
+            }
+
+            // 2. Perform the chosen math operation
+            if (operation == 'add') {
+                result = num1 + num2;
+            } else if (operation == 'subtract') {
+                result = num1 - num2;
+            } else if (operation == 'multiply') {
+                result = num1 * num2;
+            } else if (operation == 'divide') {
+                if (num2 === 0) {
+                    alert("Cannot divide by zero!");
+                    return;
+                }
+                result = num1 / num2;
+            }
+
+            alert("The result is: " + result);
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    
+    <label>Enter First Number:</label><br>
+    <input type="text" id="txtNum1"><br><br>
+    
+    <label>Enter Second Number:</label><br>
+    <input type="text" id="txtNum2"><br><br>
+
+    <button onClick="calculate('add')">Add</button>
+    <button onClick="calculate('subtract')">Subtract</button>
+    <button onClick="calculate('multiply')">Multiply</button>
+    <button onClick="calculate('divide')">Divide</button>
+</body>
+</html>
