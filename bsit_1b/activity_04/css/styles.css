@@ -1,0 +1,28 @@
+body {
+    background-color: #f79220;
+}
+.wrapper{
+    width: 100%;
+    border: 1px #000 solid;
+    margin: 0 auto;
+    min-height: 100 px;
+}
+.header {
+    background-image: url(../images/wunderlich.jpeg);
+    min-height: 100px;
+    background-size: contain; 
+    background-position: center;
+
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.header h1 {
+    color: #f5b367;          
+    font-size: 200px;       
+    font-family: Almendra;
+    margin: 0;             
+    
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); 
+}
